@@ -1,0 +1,62 @@
+<html>
+  <head>
+    <title>Title of the document</title>
+    <script>
+    function onbuttonclick()
+      {
+       var usid=document.getElementById("32389").value;
+       var psw=document.getElementById("Naveen@24").value;
+      alert(usid);
+      alert(psw);
+      if(usid=="32389" && psw=="Naveen@24")
+      {
+        alert("login approved");
+      }
+      else
+      {
+      alert("enter correct login");
+        
+      }
+        alert("submitted the values");
+        
+      }
+    </script>
+    <style>
+      body {
+        background-image: url("C:\Users\NAVEEN SAI\Pictures\buy_gold_bars.png");
+        background-repeat:no-repeat ;
+        background-attachment:scroll;
+        background-size: cover;
+      }
+      .box{
+background-color:rgba(12, 3, 33, 0.371);
+align-content: center;
+width: 380px;
+height: 500px;
+padding: 20px;
+margin: 8% auto 0;
+text-align: center;
+    position: relative;
+    box-sizing: border-box;
+    flex-direction: column;
+}
+
+.box img{
+width:100px;
+margin-top:-50px ;
+
+}
+
+    </style>
+  </head>
+  <body>
+   <div class="box">
+    <img src="klu_logo.png"><BR>
+      <label><h1>LOGIN PAGE</h1></label>
+    <font color="white">USER NAME:</font><input type="text" name="name" id="logName" required>
+    <font color="white">PASSWORD:</font><input type="password" name="password" id="logPassword" required>
+    <br><br><input type="submit" value="Login" onclick="onbuttonclick()">
+   </div>
+    
+  </BODY>
+</HTML>
